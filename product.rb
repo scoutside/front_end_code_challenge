@@ -27,7 +27,7 @@ class Product
       return @title
     end
     def gen_body
-      return Faker::Lorem.paragraph(1)
+      return Faker::Hipster.paragraph(1)
     end
     def gen_vendor
       return Faker::Company.name
@@ -36,7 +36,7 @@ class Product
       return Faker::Commerce.department(1, true)
     end
     def gen_tags
-      return Faker::Lorem.words.join(",")
+      return Faker::Hipster.words.join(",")
     end
     def gen_published
       return 'TRUE'
@@ -93,10 +93,10 @@ class Product
       return ''
     end
     def gen_image_src
-      return Faker::Avatar.image
+      return Faker::LoremFlickr.image("300x300", ['toys'])
     end
     def gen_image_alt_text
-      return Faker::Lorem.sentence
+      return Faker::Hipster.sentence
     end
     def gen_gift_card
       return 'FALSE'
@@ -114,16 +114,16 @@ class Product
       return Faker::Commerce.department
     end
     def gen_seo_title
-      return Faker::Lorem.sentence
+      return Faker::Hipster.sentence
     end
     def gen_seo_description
-      return Faker::Lorem.sentence
+      return Faker::Hipster.sentence
     end
     def gen_google_shopping_adwords_grouping
       return @type
     end
     def gen_google_shopping_adwords_labels
-      return Faker::Lorem.sentence(3, true)
+      return Faker::Hipster.sentence(3, true)
     end
     def gen_google_shopping_condition
       return ['new', 'used'].sample
