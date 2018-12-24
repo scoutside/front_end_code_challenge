@@ -4,13 +4,9 @@ Scoutside Front End Engineer Code/Design Challenge
 
 Hello!
 
-We're excited that you're interested in joining the [Scoutside](https://scoutside.com) team.  In the past, we have
-brought potential engineering candidates into our office for a full-day
-technical interview.  This interview would include whiteboard programming
-exercises, code reviews, and other thought exercises.  Unfortunately, onsite technical interviews are often biased against people who are not comfortable being put on the spot.  Not to mention, who _actually_ codes on a whiteboard in real life?  In short,  we realized that we
-were evaluating candidates in an unusual situation.
+We're excited that you're interested in joining the [Scoutside](https://scoutside.com) team.
 
-So instead, we've come up with this relatively open-ended programming/design
+We've come up with this relatively open-ended programming/design
 challenge that will allow you to demonstrate your skills from the comfort
 of your own workspace.  In addition, we know your time is valuable, so please
 feel free to use your completed work as a portfolio piece.
